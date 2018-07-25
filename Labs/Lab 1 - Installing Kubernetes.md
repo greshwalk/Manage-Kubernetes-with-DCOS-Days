@@ -114,7 +114,7 @@ dcos package install marathon-lb
 
 kubectl-proxy service:
 ```
-$ cat <<EOF > kubectl-proxy.json
+$ cat >> kubectl-proxy.json <<EOF
 {
   "id": "/kubectl-proxy",
   "instances": 1,
